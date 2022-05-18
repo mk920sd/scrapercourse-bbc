@@ -25,5 +25,5 @@ for page in range(1,4):
         for tag in tags:
             tag_list.append(tag.find('a').getText())
     print(f'這是第{page}頁')
-    print('這是新聞標題：' , title_list)
-    print('這是相關新聞標題：' , tag_list)
+    print(f'第{page}頁的新聞標題：' , title_list)
+    print(f'第{page}頁的相關新聞標題：' , tag_list)
