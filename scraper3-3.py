@@ -11,5 +11,6 @@ titles = soup.find_all(
 for title in titles:
     # title_list.append(title.getText())
     print(title.getText())
-
+ 
+    
 # print(title_list)
